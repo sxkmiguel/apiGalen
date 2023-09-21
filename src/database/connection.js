@@ -1,9 +1,9 @@
 const sql = require('mssql')
 const dbSettings = {
-  user: 'sa',
-  password: 'hlew92kizz',
-  server: 'localhost',
-  database: 'CRUDMVC',
+  user: 'GalenhosAutorizationE',
+  password: 'GalenHos2008r2',
+  server: '192.168.1.150',
+  database: 'SIGH',
   pool: {
     max: 10,
     min: 0,
