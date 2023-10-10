@@ -1,9 +1,13 @@
 const sql = require('mssql')
 const dbSettings = {
-  user: 'GalenhosAutorizationE',
+  user: 'sa',
+  password: 'hlew92kizz',
+  server: 'localhost',
+  database: 'SIGH',
+/*   user: 'GalenhosAutorizationE',
   password: 'GalenHos2008r2',
   server: '192.168.1.150',
-  database: 'SIGH',
+  database: 'SIGH', */
   pool: {
     max: 10,
     min: 0,
@@ -25,5 +29,6 @@ export async function getConnection(){
   
 }
 
-getConnection();
+/* getConnection(); */
+export {sql};
 
